@@ -38,8 +38,4 @@ cd human-in-the-loop-translation
 pip install -r requirements.txt
 ```
 
-**Dependencies:** `transformers`, `torch`, `sentence-transformers` (or LaBSE), `faiss-cpu`/`faiss-gpu`, `fastapi` or `flask`, `redis` (optional).
 
----
-
-If you want, I can **also add a simple ASCII flowchart** at the top showing UI → Agents → FAISS/JSONL → Few-Shot → Fine-Tuning → LLM Endpoints to make it more visual. Do you want me to do that?
